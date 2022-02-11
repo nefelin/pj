@@ -1,0 +1,12 @@
+{
+  "name": "@emlindgren/pj",
+  "version": "0.0.2",
+  "description": "A small utility to quickly explore package.json from the command line",
+  "main": "pj.js",
+  "author": "Eric Lindgren <nephilim.eric@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+  "thing": "echo thing"
+  },
+  "bin": "./pj.js"
+}

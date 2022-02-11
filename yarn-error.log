@@ -1,0 +1,36 @@
+Arguments: 
+  /Users/eric/.nvm/versions/node/v16.5.0/bin/node /Users/eric/.nvm/versions/node/v16.5.0/bin/yarn init
+
+PATH: 
+  /Users/eric/.nvm/versions/node/v16.5.0/bin:/Users/eric/.nvm/versions/node/v12.14.1/bin:/Users/eric/.nvm/versions/node/v12.14.1/bin:/Users/eric/.nvm/versions/node/v12.14.1/bin:/Users/eric/.nvm/versions/node/v12.14.1/bin:/Users/eric/.nvm/versions/node/v12.14.1/bin:/Users/eric/.nvm/versions/node/v12.14.1/bin:/Users/eric/.nvm/versions/node/v12.14.1/bin:/Users/eric/.nvm/versions/node/v12.14.1/bin:/Users/eric/.local/bin:/usr/local/bin:/Users/eric/bin:/Users/eric/Library/Python/2.7/bin:/Users/eric/keebs/gcc-arm-none-eabi-9-2020-q2-update/bin:/Users/eric/Library/Python/3.7/bin:/Users/eric/Library/Python/3.6/bin:/Users/eric/Covetrus/confluent-6.0.0/bin:/usr/local/opt/gettext/bin:/opt/homebrew/bin:=/bin:/Users/eric/.nvm/versions/node/v12.14.1/bin:/usr/local/go/bin:/Users/eric/go/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Apple/usr/bin:/Applications/Little Snitch.app/Contents/Components:/usr/local/share/dotnet:~/.dotnet/tools:/Library/Frameworks/Mono.framework/Versions/Current/Commands
+
+Yarn version: 
+  1.22.10
+
+Node version: 
+  16.5.0
+
+Platform: 
+  darwin arm64
+
+Trace: 
+  Error: canceled
+      at Interface.<anonymous> (/Users/eric/.nvm/versions/node/v16.5.0/lib/node_modules/yarn/lib/cli.js:136216:13)
+      at Interface.emit (node:events:394:28)
+      at Interface._ttyWrite (node:readline:1081:16)
+      at ReadStream.onkeypress (node:readline:288:10)
+      at ReadStream.emit (node:events:394:28)
+      at emitKeys (node:internal/readline/utils:358:14)
+      at emitKeys.next (<anonymous>)
+      at ReadStream.onData (node:internal/readline/emitKeypressEvents:61:36)
+      at ReadStream.emit (node:events:394:28)
+      at addChunk (node:internal/streams/readable:312:12)
+
+npm manifest: 
+  No manifest
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
