@@ -3,9 +3,13 @@ const fs = require('fs');
 const path = require('path');
 
 const filePath = './package.json';
+const RED_COLOR = '\x1b[31m';
+const GREEN_COLOR = '\x1b[32m'
+const WHITE_COLOR = '\x1b[37m'
+const CLEAR_COLOR = '\x1b[0m'
 
 if (!fs.existsSync(filePath)) {
-    console.error('Error: package.json not found at filePath: ', path.join(process.cwd(), filePath))
+    console.error(`Error: No package.json in current directory (${path.join(process.cwd(), filePath)})`)
     process.exit(1);
 }
 
@@ -29,8 +33,13 @@ try {
 		default:
 			const keys = allKeys.filter(key => key.startsWith(term))
 
-			for (let key of keys) {
-				console.log(`${key}: `, parsed[key])
+			if (keys.length) {
+				for (let key of keys) {
+					console.log(`${key}: `, parsed[key])
+				}
+			} else {
+				console.log(`No package.json field begins with ${RED_COLOR}'${term}'${CLEAR_COLOR}`)
+				console.log(allKeys)
 			}
 
 			break;
