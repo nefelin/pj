@@ -4,6 +4,9 @@ PJ is a small utility for exploring package.json's from the command line.
 
 If you've ever found yourself bouncing between projects a having to open package.json over and over to check script names or other details, you might find PJ helpful.
 
+### Installation
+`npm i -g @emlindgren/pj`
+
 ### Usage
 PJ is very simple:
 
